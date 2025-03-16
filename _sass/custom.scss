@@ -1,12 +1,12 @@
-/* Contenedor principal con dos columnas (TFM y Proyectos) */
+
 .projects-tfm-section {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
-  gap: 2rem; /* Espacio entre columnas */
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem; 
   align-items: start;
   padding: 2rem;
   max-width: 1200px;
-  margin: auto; /* Centrar la sección en la página */
+  margin: auto; 
 }
 
 /* Columnas de TFM y Proyectos */
@@ -26,13 +26,13 @@
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-/* Efecto hover en las tarjetas */
+
 .projects-tfm-section .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* Imágenes dentro de las tarjetas */
+
 .projects-tfm-section .card img {
   width: 100%;
   height: auto;
@@ -41,7 +41,7 @@
   margin-bottom: 0.5rem;
 }
 
-/* Títulos de cada sección */
+
 .projects-tfm-section h2 {
   text-align: center;
   font-size: 1.8rem;
@@ -49,21 +49,21 @@
   color: #002b36; /* Azul oscuro */
 }
 
-/* Títulos de cada tarjeta */
+
 .projects-tfm-section .card h3 {
   margin: 0.5rem 0;
   font-size: 1.2rem;
   color: #333;
 }
 
-/* Párrafos dentro de las tarjetas */
+
 .projects-tfm-section .card p {
   font-size: 1rem;
   color: #666;
   line-height: 1.5;
 }
 
-/* Botón de GitHub dentro de la tarjeta */
+
 .projects-tfm-section .card a.btn {
   display: inline-block;
   margin-top: 0.5rem;
@@ -80,7 +80,7 @@
   background-color: #0056b3;
 }
 
-/* Diseño responsive para móviles */
+
 @media (max-width: 768px) {
   .projects-tfm-section {
     grid-template-columns: 1fr; /* Una sola columna en móviles */
