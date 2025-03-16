@@ -40,3 +40,72 @@
   </div>
 </div>
 
+/* Contenedor de la sección con dos columnas (TFM y Proyectos) */
+.projects-tfm-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;               /* espacio entre columnas y filas */
+  align-items: start;      /* alineación superior de las tarjetas en cada columna */
+}
+
+/* Columna individual (puedes agregar estilos adicionales si hace falta) */
+.projects-tfm-section .column {
+  /* Ejemplo: agregar un pequeño padding interno 
+     padding: 0.5rem;
+     */
+}
+
+/* Tarjeta de proyecto/TFM */
+.projects-tfm-section .card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;  /* para que bordes redondeados afecten a la imagen */
+  padding: 1rem;
+  margin-bottom: 1.5rem;  /* separación inferior entre tarjetas */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Efecto hover en la tarjeta: ligeramente elevada con sombra más intensa */
+.projects-tfm-section .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Imagen dentro de la tarjeta */
+.projects-tfm-section .card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0.5rem;
+  /* Opcional: border-bottom o efecto hover en imagen, según se desee */
+}
+
+/* Títulos dentro de las tarjetas */
+.projects-tfm-section .card h3 {
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Botón de GitHub dentro de la tarjeta */
+.projects-tfm-section .card a.btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  /* Los estilos de color/fondo del botón provienen de la clase .btn--primary del tema */
+}
+
+/* Título de cada columna (sección) */
+.projects-tfm-section h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Media query para dispositivos móviles: una columna en lugar de dos */
+@media (max-width: 768px) {
+  .projects-tfm-section {
+    grid-template-columns: 1fr;   /* una sola columna */
+  }
+}
