@@ -1,15 +1,19 @@
 ---
+---
 layout: splash
-title: "Mari Carmen Expósito Almela"
-subtitle: "Finanzas, Complex Problem Solving, Data Analytics & Business Intelligence"
+title: "Mamen Expósito Almela"
+subtitle: "Finanzas | Data Analytics | Business Intelligence"
 permalink: /
 header:
-  overlay_color: "#002b36"
-  overlay_filter: "0.5"
+  overlay_color: "#020c1b"
+  overlay_filter: "0.7"
   overlay_image: "/assets/images/tech-background.jpg"
   actions:
-    - label: "Ver mis proyectos"
+    - label: "Descubre mis proyectos 🚀"
       url: "/projects"
+      class: "btn"
+---
+
 ---
 
 {% include feature_row %}
