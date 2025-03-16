@@ -1,6 +1,6 @@
-remote_theme: mmistakes/minimal-mistakes
 title: "Mamen Portfolio"
 description: "Mi portafolio profesional"
-logo: "/assets/images/logo.png"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
 show_downloads: true
-theme: minimal-mistakes-jekyll
