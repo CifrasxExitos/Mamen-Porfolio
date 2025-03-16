@@ -1,12 +1,12 @@
 @import "projects-tfm-section";
 .projects-tfm-section {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  gap: 2rem; 
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
   align-items: start;
   padding: 2rem;
   max-width: 1200px;
-  margin: auto; 
+  margin: auto;
 }
 
 .projects-tfm-section .column {
@@ -17,19 +17,17 @@
   background: #ffffff;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   padding: 1rem;
   margin-bottom: 1.5rem;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-
 .projects-tfm-section .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-
 
 .projects-tfm-section .card img {
   width: 100%;
@@ -39,13 +37,12 @@
   margin-bottom: 0.5rem;
 }
 
-
 .projects-tfm-section h2 {
   text-align: center;
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #002b36; }
-
+  color: #002b36;
+}
 
 .projects-tfm-section .card h3 {
   margin: 0.5rem 0;
@@ -53,34 +50,34 @@
   color: #333;
 }
 
-
 .projects-tfm-section .card p {
   font-size: 1rem;
-  color: #666;
-  line-height: 1.5;
+  color: #555;
+  line-height: 1.6;
 }
 
-
+/* Botón */
 .projects-tfm-section .card a.btn {
   display: inline-block;
   margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
-  background-color: #007bff;
-  color: white;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
   text-decoration: none;
+  color: white;
+  background: #007bff;
   border-radius: 5px;
-  text-align: center;
-  transition: background 0.3s;
+  transition: background 0.3s ease-in-out;
 }
 
 .projects-tfm-section .card a.btn:hover {
-  background-color: #0056b3;
+  background: #0056b3;
 }
 
-
+/* Responsividad */
 @media (max-width: 768px) {
   .projects-tfm-section {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
   }
 }
 
