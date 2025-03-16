@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Mamen Expósito Almela"
-subtitle: "Experta en Finanzas, Data Analytics & Business Intelligence"
+title: "Mari Carmen Expósito Almela"
+subtitle: "Finanzas, Complex Problem Solving, Data Analytics & Business Intelligence"
 permalink: /
 header:
   overlay_color: "#002b36"
@@ -13,30 +13,17 @@ header:
 ---
 
 {% include feature_row %}
----
-layout: splash
-title: "Mamen Expósito Almela"
-subtitle: "Experta en Finanzas, Data Analytics & Business Intelligence"
-permalink: /
-header:
-  overlay_color: "#002b36"
-  overlay_filter: "0.5"
-  overlay_image: "/assets/images/tech-background.jpg"
-  actions:
-    - label: "Ver mis proyectos"
-      url: "/projects"
----
 
 ## Sobre mí  
-🎯 **Especialista en Finanzas, Business Intelligence y Análisis de Datos**  
+**Especialista en Finanzas, Business Intelligence y Análisis de Datos**  
 Con más de 20 años de experiencia en multinacionales, aplico **análisis financiero, automatización y visualización de datos** para optimizar procesos y mejorar la toma de decisiones.
 
-📊 **Áreas de especialización:**  
+**Áreas de especialización:**  
 - Inteligencia de Negocio con Power BI, SQL, Python.  
 - Controlling y Finanzas Corporativas.  
 - Optimización de Procesos & Automatización.  
 
-🚀 **Herramientas y Tecnologías:**  
+**Herramientas y Tecnologías:**  
 - **Business Intelligence:** Power BI, Tableau.  
 - **Análisis de Datos:** SQL, Python, R.  
 - **Finanzas & Contabilidad:** SAP, Navision, TM5.  
