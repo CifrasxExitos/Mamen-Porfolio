@@ -52,3 +52,75 @@ a:hover {
 .header {
   animation: fadeIn 1.5s ease-in-out;
 }
+
+/* Contenedor principal con dos columnas */
+.projects-tfm-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+  gap: 2rem; /* Espacio entre columnas */
+  align-items: start;
+  padding: 2rem;
+}
+
+/* Columnas de TFM y Proyectos */
+.projects-tfm-section .column {
+  padding: 1rem;
+}
+
+/* Tarjetas individuales */
+.projects-tfm-section .card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Efecto hover en las tarjetas */
+.projects-tfm-section .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Imágenes dentro de las tarjetas */
+.projects-tfm-section .card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Títulos de cada sección */
+.projects-tfm-section h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Botones */
+.projects-tfm-section .card a.btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.projects-tfm-section .card a.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Diseño responsive para móviles */
+@media (max-width: 768px) {
+  .projects-tfm-section {
+    grid-template-columns: 1fr; /* Una sola columna en móviles */
+  }
+}
