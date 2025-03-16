@@ -9,7 +9,7 @@ permalink: /contact/
 Si quieres conectar conmigo para hablar sobre **proyectos, colaboración o asesoramiento en Finanzas y Data Analytics**, aquí tienes mis redes de contacto:
 
 <div class="contact-icons">
-  <a href="https://www.linkedin.com/in/tuperfil" target="_blank">
+  <a href="https://www.linkedin.com/in mari-carmen-exposito-almela-613ba7302" target="_blank">
     <img src="/assets/icons/linkedin.svg" alt="LinkedIn"> LinkedIn
   </a>
   <a href="https://github.com/CifrasxExitos" target="_blank">
