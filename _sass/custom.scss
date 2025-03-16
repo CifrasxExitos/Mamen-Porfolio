@@ -9,12 +9,10 @@
   margin: auto; 
 }
 
-/* Columnas de TFM y Proyectos */
 .projects-tfm-section .column {
   padding: 1rem;
 }
 
-/* Tarjetas individuales */
 .projects-tfm-section .card {
   background: #ffffff;
   border: 1px solid #ddd;
@@ -46,8 +44,7 @@
   text-align: center;
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #002b36; /* Azul oscuro */
-}
+  color: #002b36; }
 
 
 .projects-tfm-section .card h3 {
@@ -83,7 +80,7 @@
 
 @media (max-width: 768px) {
   .projects-tfm-section {
-    grid-template-columns: 1fr; /* Una sola columna en móviles */
+    grid-template-columns: 1fr; 
   }
 }
 
