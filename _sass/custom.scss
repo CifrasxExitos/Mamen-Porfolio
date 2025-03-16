@@ -103,5 +103,36 @@ a:hover {
 .contact-icons a:hover img {
   filter: brightness(1.5); /* Hace que el icono se ilumine */
 }
+/* 📌 Botones de contacto personalizados */
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn-contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #020c1b;
+  background-color: #64ffda;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-contact img {
+  width: 30px;
+  height: 30px;
+}
+
+.btn-contact:hover {
+  background-color: #00bcd4;
+  transform: scale(1.05);
+}
 
 
