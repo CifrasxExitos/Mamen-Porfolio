@@ -1,189 +1,90 @@
-/* 🎨 Paleta de colores más elegante */
-$primary-color: #0a192f;  /* Azul oscuro profesional */
-$link-color: #64ffda;  /* Verde neón para destacar enlaces */
-$text-color: #ccd6f6;  /* Azul grisáceo para el texto */
-$background-color: #020c1b;  /* Azul casi negro para el fondo */
-$border-color: #112240;  /* Azul oscuro sutil para bordes */
-
-/* 📌 Tipografía moderna y minimalista */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: $background-color;
-  color: $text-color;
-}
-
-/* 🌟 Estilo de los títulos */
-h1, h2, h3 {
-  font-weight: 600;
-  color: #ffffff;
-}
-
-/* 🔗 Estilos para enlaces */
-a {
-  color: $link-color;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-
-a:hover {
-  color: lighten($link-color, 10%);
-}
-
-/* 📦 Tarjetas de contenido */
-.card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid $border-color;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* 🎭 Estilo del botón */
-.btn {
-  background-color: $link-color;
-  color: #020c1b;
-  padding: 12px 20px;
-  border-radius: 8px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.btn:hover {
-  background-color: lighten($link-color, 10%);
-}
-/* 🎨 Estilos de la Sección de Contacto */
-.contact-icons {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.contact-icons a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 18px;
-  text-decoration: none;
-  color: #64ffda;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact-icons a:hover {
-  color: #00bcd4;
-}
-
-.contact-icons img {
-  width: 30px;
-  height: 30px;
-}
-/* 🎨 Efectos hover en los iconos de contacto */
-.contact-icons a {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 18px;
-  text-decoration: none;
-  color: #64ffda; /* Verde neón */
-  transition: all 0.3s ease-in-out;
-}
-
-.contact-icons a:hover {
-  color: #00bcd4; /* Azul cian */
-  transform: scale(1.1); /* Hace que el icono crezca ligeramente */
-}
-
-.contact-icons img {
-  width: 35px;
-  height: 35px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact-icons a:hover img {
-  filter: brightness(1.5); /* Hace que el icono se ilumine */
-}
-/* 📌 Botones de contacto personalizados */
-.contact-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.btn-contact {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 20px;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #020c1b;
-  background-color: #64ffda;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-contact img {
-  width: 30px;
-  height: 30px;
-}
-
-.btn-contact:hover {
-  background-color: #00bcd4;
-  transform: scale(1.05);
-}
-/* 📊 Estilos para la Página de Proyectos */
-.projects-grid {
+/* Contenedor principal con dos columnas (TFM y Proyectos) */
+.projects-tfm-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+  grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+  gap: 2rem; /* Espacio entre columnas */
+  align-items: start;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto; /* Centrar la sección en la página */
 }
 
-.project-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid #112240;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  transition: all 0.3s ease-in-out;
+/* Columnas de TFM y Proyectos */
+.projects-tfm-section .column {
+  padding: 1rem;
 }
 
-.project-card img {
+/* Tarjetas individuales */
+.projects-tfm-section .card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Efecto hover en las tarjetas */
+.projects-tfm-section .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Imágenes dentro de las tarjetas */
+.projects-tfm-section .card img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
-.project-card h3 {
-  color: #64ffda;
-  font-size: 20px;
-  margin-top: 15px;
+/* Títulos de cada sección */
+.projects-tfm-section h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #002b36; /* Azul oscuro */
 }
 
-.project-card p {
-  color: #ccd6f6;
-  font-size: 16px;
+/* Títulos de cada tarjeta */
+.projects-tfm-section .card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #333;
 }
 
-.project-card a {
+/* Párrafos dentro de las tarjetas */
+.projects-tfm-section .card p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Botón de GitHub dentro de la tarjeta */
+.projects-tfm-section .card a.btn {
   display: inline-block;
-  margin-top: 10px;
-  padding: 8px 15px;
-  background: #64ffda;
-  color: #020c1b;
-  font-weight: bold;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
   text-decoration: none;
   border-radius: 5px;
-  transition: all 0.3s ease-in-out;
+  text-align: center;
+  transition: background 0.3s;
 }
 
-.project-card a:hover {
-  background: #00bcd4;
+.projects-tfm-section .card a.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Diseño responsive para móviles */
+@media (max-width: 768px) {
+  .projects-tfm-section {
+    grid-template-columns: 1fr; /* Una sola columna en móviles */
+  }
 }
 
 
