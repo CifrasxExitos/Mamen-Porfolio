@@ -1,4 +1,3 @@
-
 ---
 layout: splash
 title: "Mamen Expósito Almela"
@@ -18,10 +17,4 @@ header:
 
 📊 **Especializada en:**  
 - Inteligencia de Negocio con Power BI, SQL, Python.  
-- Finanzas Corporativas & Controlling.  
-- Optimización de Procesos & Automatización.  
-
-📂 **Explora mi portafolio:**  
-- [Proyectos](./projects)  
-- [Sobre mí](./about)  
-- [Contacto](./contact)  
+- Finanzas Corporativas & Controlling
