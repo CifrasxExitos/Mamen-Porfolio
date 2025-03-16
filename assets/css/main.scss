@@ -1,0 +1,8 @@
+---
+# Sólo el archivo SCSS principal necesita front matter para ser procesado
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+/* A partir de aquí, tus estilos personalizados: */
+@import "projects-tfm-section"; /* Opcional: si separas en partial, de lo contrario pega CSS aquí */
