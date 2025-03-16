@@ -9,12 +9,4 @@ header:
   overlay_image: "/assets/images/tech-background.jpg"
   actions:
     - label: "Ver mis proyectos"
-      url: "./projects"
----
-
-## Bienvenido a mi portafolio  
-🚀 **Análisis Financiero, Business Intelligence & Automatización**  
-
-📊 **Especializada en:**  
-- Inteligencia de Negocio con Power BI, SQL, Python.  
-- Finanzas Corporativas & Controlling
+      url
