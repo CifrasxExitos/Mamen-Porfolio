@@ -5,7 +5,7 @@ permalink: /
 ---
 
 ## ¡Hola! 👋 Bienvenido a mi portafolio  
-Aquí compartiré mis proyectos en **Finanzas, Data Analytics y Business Intelligence**.
+Aquí compartiré mis proyectos en **Finanzas, Complex Problem Solving, Data Analytics y Business Intelligence**.
 
 📌 **Explora las secciones:**  
 - 📊 [Proyectos](./projects)  
