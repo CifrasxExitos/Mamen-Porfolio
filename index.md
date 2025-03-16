@@ -34,3 +34,10 @@ Con más de 20 años de experiencia en multinacionales, aplico **análisis finan
 - 📊 [Proyectos](./projects)  
 - 📄 [Sobre mí](./about)  
 - 📬 [Contacto](./contact)  
+  actions:
+    - label: "Ver mis proyectos 🚀"
+      url: "/projects"
+      class: "btn"
+    - label: "Contáctame 📩"
+      url: "/contact"
+      class: "btn"
