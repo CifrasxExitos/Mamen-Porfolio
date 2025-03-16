@@ -8,12 +8,17 @@ permalink: /contact/
 
 Si quieres conectar conmigo para hablar sobre **proyectos, colaboración o asesoramiento en Finanzas y Data Analytics**, aquí tienes mis redes de contacto:
 
-### 🌐 Redes Profesionales  
-🔹 **[LinkedIn](https://www.linkedin.com/in/tuperfil)**  
-🔹 **[GitHub](https://github.com/CifrasxExitos)**  
-
-### 📧 Correo Electrónico  
-✉️ **[mexpositoalmela@outlook.es](mailto:mexpositoalmela@outlook.es)**  
+<div class="contact-icons">
+  <a href="https://www.linkedin.com/in/tuperfil">
+    <img src="/assets/icons/linkedin.svg" alt="LinkedIn"> LinkedIn
+  </a>
+  <a href="https://github.com/CifrasxExitos">
+    <img src="/assets/icons/github.svg" alt="GitHub"> GitHub
+  </a>
+  <a href="mailto:mexpositoalmela@outlook.es">
+    <img src="/assets/icons/email.svg" alt="Email"> Email
+  </a>
+</div>
 
 ---
 
