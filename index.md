@@ -1,5 +1,4 @@
 ---
----
 layout: splash
 title: "Mamen Expósito Almela"
 subtitle: "Finanzas | Data Analytics | Business Intelligence"
@@ -12,7 +11,6 @@ header:
     - label: "Descubre mis proyectos 🚀"
       url: "/projects"
       class: "btn"
----
 
 ---
 
