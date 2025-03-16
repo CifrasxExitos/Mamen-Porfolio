@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Mamen Expósito Almela"
-subtitle: "Experta en Finanzas, Data Analytics & Business Intelligence"
+title: "Mari Carmen Expósito Almela"
+subtitle: "Experta en Finanzas, Complex Problem Solving, Data Analytics & Business Intelligence"
 permalink: /
 header:
   overlay_color: "#002b36"
