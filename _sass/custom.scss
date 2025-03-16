@@ -1,1 +1,56 @@
+/* 🎨 Paleta de colores más elegante */
+$primary-color: #0a192f;  /* Azul oscuro profesional */
+$link-color: #64ffda;  /* Verde neón para destacar enlaces */
+$text-color: #ccd6f6;  /* Azul grisáceo para el texto */
+$background-color: #020c1b;  /* Azul casi negro para el fondo */
+$border-color: #112240;  /* Azul oscuro sutil para bordes */
+
+/* 📌 Tipografía moderna y minimalista */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+/* 🌟 Estilo de los títulos */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* 🔗 Estilos para enlaces */
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: lighten($link-color, 10%);
+}
+
+/* 📦 Tarjetas de contenido */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid $border-color;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🎭 Estilo del botón */
+.btn {
+  background-color: $link-color;
+  color: #020c1b;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: lighten($link-color, 10%);
+}
 
