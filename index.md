@@ -1,4 +1,3 @@
-index.md
 ---
 layout: home
 title: "Bienvenido a mi portafolio"
