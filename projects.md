@@ -1,3 +1,9 @@
+---
+layout: single
+title: "📊 Proyectos y TFM"
+permalink: /projects/
+---
+
 <div class="projects-tfm-section">
   <!-- Columna 1: Trabajos de Fin de Máster -->
   <div class="column tfm-column">
