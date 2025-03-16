@@ -53,4 +53,29 @@ a:hover {
 .btn:hover {
   background-color: lighten($link-color, 10%);
 }
+/* 🎨 Estilos de la Sección de Contacto */
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-icons a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #64ffda;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-icons a:hover {
+  color: #00bcd4;
+}
+
+.contact-icons img {
+  width: 30px;
+  height: 30px;
+}
 
