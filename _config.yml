@@ -4,3 +4,5 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 show_downloads: true
+sass:
+  sass_dir: _sass
