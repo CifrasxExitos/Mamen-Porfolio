@@ -1,0 +1,39 @@
+/* Paleta de colores modernos */
+$primary-color: #002b36;  /* Azul oscuro corporativo */
+$link-color: #007acc;  /* Azul brillante */
+$text-color: #eaeaea;  /* Texto claro */
+$background-color: #121212;  /* Fondo oscuro elegante */
+$border-color: #444;  /* Bordes sutiles */
+
+/* Tipografía más moderna */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+/* Estilo de los títulos */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Enlaces */
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lighten($link-color, 10%);
+}
+
+/* Tarjetas de presentación */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid $border-color;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
