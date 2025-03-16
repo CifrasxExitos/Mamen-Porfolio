@@ -78,4 +78,30 @@ a:hover {
   width: 30px;
   height: 30px;
 }
+/* 🎨 Efectos hover en los iconos de contacto */
+.contact-icons a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #64ffda; /* Verde neón */
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-icons a:hover {
+  color: #00bcd4; /* Azul cian */
+  transform: scale(1.1); /* Hace que el icono crezca ligeramente */
+}
+
+.contact-icons img {
+  width: 35px;
+  height: 35px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-icons a:hover img {
+  filter: brightness(1.5); /* Hace que el icono se ilumine */
+}
+
 
