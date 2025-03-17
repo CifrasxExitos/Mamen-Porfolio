@@ -70,3 +70,64 @@ body {
         text-align: center;
     }
 }
+
+/* Contenedor en dos columnas */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+/* Texto */
+.about-text {
+    flex: 1;
+    color: #e0e0e0;
+}
+
+/* Imagen */
+.about-image {
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Botones */
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
