@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="hero-section">
-    <h1>Mamen Expósito Almela</h1>
+    <h1>Mari Carmen Expósito Almela</h1>
     <p>Especialista en Finanzas, Business Intelligence y Análisis de Datos</p>
     <div class="hero-buttons">
         <a href="/projects/" class="btn-primary">🚀 Ver mis proyectos</a>
@@ -19,9 +19,21 @@ permalink: /
 **Especialista en Finanzas, Business Intelligence y Análisis de Datos**  
 Con más de 20 años de experiencia en multinacionales, aplico **análisis financiero, automatización y visualización de datos** para optimizar procesos y mejorar la toma de decisiones.
 
-## Explora mi portafolio 📂
-- 🔹 [Proyectos](/projects/)
-- 🔹 [Sobre mí](/about/)
-- 🔹 [Áreas de Especialización](/specialization/)
-- 🔹 [Experiencia Profesional](/experience/)
-- 🔹 [Contacto](/contact/)
+## Áreas de Especialización 📊
+- **Inteligencia de Negocio:** Power BI, SQL, Python.
+- **Controlling y Finanzas Corporativas.**
+- **Optimización de Procesos & Automatización.**
+
+## Herramientas y Tecnologías 🔧
+- **Business Intelligence:** Power BI, Tableau.
+- **Análisis de Datos:** SQL, Python, R.
+- **Finanzas & Contabilidad:** SAP, Navision, TM5.
+
+---
+
+## 📂 **Explora mi portafolio**
+-  [Sobre mí](/about/)
+-  [Áreas de Especialización](/specialization/)
+-  [Experiencia Profesional](/experience/)
+-  [Contacto](/contact/)
+-  [Proyectos](/projects/)
