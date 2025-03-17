@@ -1,24 +1,26 @@
 ---
 layout: single
-title: "Mari Carmen Expósito Almela"
 permalink: /
 ---
 
 <div class="hero-section">
-    <p>Especialista en Finanzas, Business Intelligence y Análisis de Datos</p>
-    <div class="hero-buttons">
-        <a href="/projects/" class="btn-primary">🚀 Ver mis proyectos</a>
-        <a href="/contact/" class="btn-secondary">📬 Contáctame</a>
-        <a href="/specialization/" class="btn-primary">📊 Áreas de Especialización</a>
-        <a href="/experience/" class="btn-secondary">💼 Experiencia Profesional</a>
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Mari Carmen Expósito Almela</h1>
+            <h2>Especialista en Finanzas, Business Intelligence y Análisis de Datos</h2>
+            <p>Transformo datos en decisiones estratégicas con más de 20 años de experiencia en multinacionales.</p>
+            <div class="hero-buttons">
+                <a href="/projects/" class="btn-primary"> Ver mis proyectos</a>
+                <a href="/contact/" class="btn-secondary"> Contáctame</a>
+                <a href="/specialization/" class="btn-primary"> Áreas de Especialización</a>
+                <a href="/experience/" class="btn-secondary"> Experiencia Profesional</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/assets/images/profile.jpg" alt="Mari Carmen Expósito Almela">
+        </div>
     </div>
 </div>
-
----
-
-## Sobre mí
-**Especialista en Finanzas, Business Intelligence y Análisis de Datos**  
-Con más de 20 años de experiencia en multinacionales, aplico **análisis financiero, automatización y visualización de datos** para optimizar procesos y mejorar la toma de decisiones.
 
 ---
 
@@ -38,8 +40,8 @@ Con más de 20 años de experiencia en multinacionales, aplico **análisis finan
 ---
 
 ## 📂 **Explora mi portafolio**
- [Sobre mí](/about/)  
- [Áreas de Especialización](/specialization/)  
- [Experiencia Profesional](/experience/)  
- [Proyectos](/projects/)  
- [Contacto](/contact/)  
+- [Sobre mí](/about/)  
+- [Áreas de Especialización](/specialization/)  
+- [Experiencia Profesional](/experience/)  
+- [Proyectos](/projects/)  
+- [Contacto](/contact/)  
