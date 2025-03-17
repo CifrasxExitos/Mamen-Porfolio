@@ -1,135 +1,72 @@
 @import "projects-tfm-section";
-/* Contenedor de las dos columnas */
-.projects-tfm-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: start;
-    margin-top: 1.5rem;
-}
-
-/* Estilos individuales de las columnas */
-.column {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-/* Tarjetas de cada sección */
-.card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 1rem;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 0.75rem;
-}
-
-.card h3 {
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-}
-
-.card p {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 1rem;
-}
-
-.card a.btn-primary {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background 0.3s ease;
-}
-
-.card a.btn-primary:hover {
-    background: #0056b3;
-}
-
-/* Diseño responsive para pantallas más pequeñas */
-@media (max-width: 768px) {
-    .projects-tfm-section {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Contenedor Principal */
+/* Contenedor general en dos columnas */
 .about-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 2rem;
-    max-width: 1000px;
-    margin: auto;
-    padding: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
 }
 
-/* Columna Izquierda (Imagen y Nombre) */
-.about-left {
-    text-align: center;
+/* Estilos del texto */
+.about-text {
+    flex: 1;
+    color: #e0e0e0;
 }
 
-.about-left img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+.about-text h2 {
+    font-size: 2rem;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
-.about-left h2 {
+.about-text h3 {
     font-size: 1.5rem;
-    color: #222;
-}
-
-/* Columna Derecha (Skills, Experiencia, Educación) */
-.about-right {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-/* Secciones (Skills, Experiencia, Educación) */
-.skills, .experience, .education {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-/* Tarjetas de Skills */
-.skill-card, .experience-card {
-    background: #fff;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(50% - 1rem);
-    min-width: 220px;
-}
-
-/* Estilos de títulos */
-h3 {
-    font-size: 1.4rem;
-    border-bottom: 2px solid #0056b3;
+    color: #ffffff;
+    margin-top: 1.5rem;
+    border-bottom: 2px solid #007bff;
     padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
 }
 
-/* Responsive: Móvil */
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #cfcfcf;
+}
+
+/* Imagen de perfil */
+.about-image {
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Modo oscuro */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
     .about-container {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
     }
-    .skill-card, .experience-card {
-        flex: 1 1 100%;
+
+    .about-text {
+        text-align: center;
     }
 }
