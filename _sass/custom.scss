@@ -423,3 +423,41 @@ section {
 .btn-profile:hover {
     background: #0056b3;
 }
+.profile-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn-profile {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-profile:hover {
+    background: #0056b3;
+}
+
+.portfolio-links {
+    background: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.portfolio-links a:hover {
+    text-decoration: underline;
+}
