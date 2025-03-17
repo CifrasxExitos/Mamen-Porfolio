@@ -7,3 +7,5 @@ show_downloads: true
 sass:
   sass_dir: _sass
   style: compressed
+include:
+  - _includes
