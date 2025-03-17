@@ -64,3 +64,72 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* Contenedor Principal */
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* Columna Izquierda (Imagen y Nombre) */
+.about-left {
+    text-align: center;
+}
+
+.about-left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.about-left h2 {
+    font-size: 1.5rem;
+    color: #222;
+}
+
+/* Columna Derecha (Skills, Experiencia, Educación) */
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Secciones (Skills, Experiencia, Educación) */
+.skills, .experience, .education {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Tarjetas de Skills */
+.skill-card, .experience-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 1rem);
+    min-width: 220px;
+}
+
+/* Estilos de títulos */
+h3 {
+    font-size: 1.4rem;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Responsive: Móvil */
+@media (max-width: 768px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+    .skill-card, .experience-card {
+        flex: 1 1 100%;
+    }
+}
