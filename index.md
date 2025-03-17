@@ -2,6 +2,7 @@
 layout: single
 permalink: /
 ---
+{% include profile.html %}
 
 <div class="hero-section">
     <div class="hero-content">
