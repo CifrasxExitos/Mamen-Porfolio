@@ -245,3 +245,62 @@ body {
 section {
     margin-bottom: 2rem;
 }
+
+/* Centrar el título y aumentar tamaño */
+.hero-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Mejorar los botones */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Separación entre secciones */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Espaciado en el menú de exploración */
+.explora-mi-portafolio {
+    margin-top: 2rem;
+}
+
+.explora-mi-portafolio a {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
