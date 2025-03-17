@@ -39,4 +39,10 @@ permalink: /about/
         <p>Consolidación financiera en el Magreb y auditorías.</p>
       </div>
       <div class="experience-card">
-        <h4>🏦 Responsable de Tesorería | Saargummi S.A. (2011)</h4
+        <h4>🏦 Responsable de Tesorería | Saargummi S.A. (2011)</h4>
+        <p>Gestión de efectivo y procesos contables.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
