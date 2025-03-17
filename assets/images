@@ -3,3 +3,18 @@
 <img src="/assets/images/tfm2.png" alt="Imagen del TFM 2">
 <img src="/assets/images/proyecto1.png" alt="Imagen del Proyecto 1">
 <img src="/assets/images/proyecto2.png" alt="Imagen del Proyecto 2">
+
+<div class="hero-image">
+    <img src="/assets/images/profile.jpg" alt="Mari Carmen Expósito Almela" usemap="#profile-map">
+    
+    <map name="profile-map">
+        <!-- Área para el enlace a LinkedIn -->
+        <area shape="rect" coords="50,50,150,150" href="https://www.linkedin.com/in/tu-perfil" alt="LinkedIn" target="_blank">
+        
+        <!-- Área para el enlace a GitHub -->
+        <area shape="circle" coords="180,200,40" href="https://github.com/tu-usuario" alt="GitHub" target="_blank">
+        
+        <!-- Área para el enlace a Contacto -->
+        <area shape="rect" coords="50,180,250,250" href="/contact/" alt="Contáctame">
+    </map>
+</div>
