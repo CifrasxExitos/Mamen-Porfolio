@@ -35,5 +35,5 @@ Con más de 20 años de experiencia en multinacionales, aplico **análisis finan
 -  [Sobre mí](/about/)
 -  [Áreas de Especialización](/specialization/)
 -  [Experiencia Profesional](/experience/)
--  [Contacto](/contact/)
 -  [Proyectos](/projects/)
+-  [Contacto](/contact/)
