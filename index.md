@@ -23,6 +23,7 @@ Con más de 20 años de experiencia en multinacionales, aplico **análisis finan
 - **Inteligencia de Negocio:** Power BI, SQL, Python.
 - **Controlling y Finanzas Corporativas.**
 - **Optimización de Procesos & Automatización.**
+- **Metodologia CPS - Complex Problem Solving.**
 
 ## Herramientas y Tecnologías 🔧
 - **Business Intelligence:** Power BI, Tableau.
