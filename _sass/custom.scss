@@ -461,3 +461,9 @@ section {
 .portfolio-links a:hover {
     text-decoration: underline;
 }
+
+.slider-panel {
+  width: 100%;
+  min-height: 300px; /* Altura mínima aumentada para mayor legibilidad */
+  /* Mantener aquí otras propiedades existentes, como fondo semitransparente, blur, etc. */
+}
