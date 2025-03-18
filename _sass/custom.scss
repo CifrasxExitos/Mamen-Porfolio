@@ -474,3 +474,10 @@ section {
   overflow: hidden;
   position: relative;
 }
+
+.slider-panel {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* prefijo para compatibilidad */
+  background-color: rgba(255, 255, 255, 0.3); /* color blanco semitransparente */
+  border-radius: 1rem; /* opcional: bordes redondeados para estilo elegante */
+}
