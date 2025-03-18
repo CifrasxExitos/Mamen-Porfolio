@@ -84,10 +84,22 @@ body {
 /* Secciones */
 section {
     padding: 60px 20px;
+    text-align: center;
 }
 
+/* Ajustes en "Sobre Mí" */
+.about-text {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* Tamaño de títulos */
 h2 {
     color: #00b167;
+    font-size: 2em;
 }
 
 /* Footer */
