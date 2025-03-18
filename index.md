@@ -1,78 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="Style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamen Expósito Almela | Portafolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mamen Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Barra de Navegación -->
     <header>
-        <nav>
+        <nav class="navbar">
             <div class="logo">Mamen Expósito</div>
             <ul class="nav-links">
                 <li><a href="#about">Sobre Mí</a></li>
                 <li><a href="#experience">Experiencia</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#contact">Contacto</a></li>
-                <li><a href="resume.pdf" class="btn">Currículum</a></li>
+                <li><a class="btn-cv" href="cv.pdf">Currículum</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Sección de Presentación -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Mamen Expósito Almela</h1>
-            <p>Especialista en Finanzas, Business Intelligence y Análisis de Datos</p>
-            <a href="#projects" class="btn">Ver mis proyectos</a>
-            <a href="#contact" class="btn">Contáctame</a>
-        </div>
-    </section>
-
-    <!-- Sección Sobre Mí -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-text">
-                <h2>Sobre Mí</h2>
-                <p>Con más de 20 años de experiencia en multinacionales, aplico <strong>análisis financiero, automatización y visualización de datos</strong> para optimizar procesos y mejorar la toma de decisiones.</p>
-            </div>
-            <div class="about-img">
-                <img src="assets/images/profile.jpg" alt="Mamen Expósito Almela">
+        <div class="hero-container">
+            <h1 class="hero-title">Mamen Expósito Almela</h1>
+            <p class="hero-subtitle">
+                Especialista en Finanzas, Business Intelligence y Análisis de Datos.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">Ver mis proyectos</a>
+                <a href="#contact" class="btn">Contáctame</a>
             </div>
         </div>
     </section>
 
-    <!-- Sección Experiencia -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2>Experiencia Profesional</h2>
-            <p>Listado de experiencia profesional...</p>
-        </div>
+    <!-- Sobre Mí -->
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>Con más de 20 años de experiencia en multinacionales, aplico <strong>análisis financiero, automatización y visualización de datos</strong> para optimizar procesos y mejorar la toma de decisiones.</p>
     </section>
 
-    <!-- Sección Proyectos -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Proyectos Destacados</h2>
-            <p>Listado de proyectos...</p>
-        </div>
+    <!-- Experiencia Profesional -->
+    <section id="experience">
+        <h2>Experiencia Profesional</h2>
+        <p>Listado de experiencia profesional...</p>
     </section>
 
-    <!-- Sección Contacto -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contacto</h2>
-            <p>Formulario de contacto...</p>
-        </div>
+    <!-- Proyectos Destacados -->
+    <section id="projects">
+        <h2>Proyectos Destacados</h2>
+        <p>Listado de proyectos...</p>
     </section>
 
-    <!-- Footer -->
+    <!-- Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Formulario de contacto...</p>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Mamen Expósito Almela. Todos los derechos reservados.</p>
+        <p>© 2024 Mamen Expósito Almela. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
+
