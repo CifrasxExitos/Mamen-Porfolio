@@ -3,77 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamen Expósito - Portfolio</title>
-    <link rel="stylesheet" href="Style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Portafolio - Mamen Expósito</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+        }
+        .glass-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            width: 50%;
+            box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #00ff7f;
+        }
+        .specialization {
+            font-size: 1.2rem;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+        .slider {
+            font-size: 1.5rem;
+            font-weight: 400;
+            height: 50px;
+            overflow: hidden;
+        }
+        .slider span {
+            display: block;
+            animation: slide 10s infinite;
+        }
+        @keyframes slide {
+            0% { transform: translateY(0); }
+            25% { transform: translateY(-50px); }
+            50% { transform: translateY(-100px); }
+            75% { transform: translateY(-150px); }
+            100% { transform: translateY(0); }
+        }
+        .animated-lines {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url('https://source.unsplash.com/1600x900/?technology,data') no-repeat center center;
+            background-size: cover;
+            opacity: 0.3;
+            z-index: -1;
+        }
+    </style>
 </head>
 <body>
-
-    <!-- Barra de navegación -->
-    <header>
-        <div class="container">
-            <h1 class="logo">Mamen Expósito</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">Sobre Mí</a></li>
-                    <li><a href="#experience">Experiencia</a></li>
-                    <li><a href="#projects">Proyectos</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                    <li><a href="#cv" class="cv-button">Currículum</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Sección Principal -->
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Mamen Expósito Almela</h2>
-            <p>Especialista en Finanzas, Business Intelligence y Análisis de Datos.</p>
-            <div class="buttons">
-                <a href="#projects" class="btn">Ver mis proyectos</a>
-                <a href="#contact" class="btn">Contáctame</a>
+    <div class="animated-lines"></div>
+    <div class="container">
+        <div class="glass-box">
+            <h1>Mamen Expósito Almela</h1>
+            <p class="specialization">Especialista en Controlling, Business Intelligence y Estrategia Financiera</p>
+            <div class="slider">
+                <span>"Transformo datos en decisiones estratégicas para optimizar la gestión financiera y de negocio."</span>
+                <span>"Más de 20 años impulsando eficiencia financiera y optimización de costes mediante análisis de datos e inteligencia de negocio."</span>
+                <span>"Convierto datos en información valiosa para mejorar la rentabilidad y el control financiero de tu empresa."</span>
+                <span>"Finanzas, datos y estrategia: mi fórmula para optimizar el crecimiento empresarial."</span>
             </div>
         </div>
-    </section>
-
-    <!-- Sección Sobre Mí -->
-    <section id="about">
-        <div class="container">
-            <h2>Sobre Mí</h2>
-            <p>Con más de 20 años de experiencia en multinacionales, aplico <strong>análisis financiero</strong>, <strong>automatización</strong> y <strong>visualización de datos</strong> para optimizar procesos y mejorar la toma de decisiones.</p>
-        </div>
-    </section>
-
-    <!-- Sección Experiencia -->
-    <section id="experience">
-        <div class="container">
-            <h2>Experiencia Profesional</h2>
-            <p>Listado de experiencia profesional...</p>
-        </div>
-    </section>
-
-    <!-- Sección Proyectos -->
-    <section id="projects">
-        <div class="container">
-            <h2>Proyectos Destacados</h2>
-            <p>Listado de proyectos...</p>
-        </div>
-    </section>
-
-    <!-- Sección Contacto -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contacto</h2>
-            <p>Formulario de contacto...</p>
-        </div>
-    </section>
-
-    <!-- Pie de página -->
-    <footer>
-        <p>&copy; 2024 Mamen Expósito Almela. Todos los derechos reservados.</p>
-    </footer>
-
+    </div>
 </body>
 </html>
-
