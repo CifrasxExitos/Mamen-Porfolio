@@ -467,3 +467,10 @@ section {
   min-height: 300px; /* Altura mínima aumentada para mayor legibilidad */
   /* Mantener aquí otras propiedades existentes, como fondo semitransparente, blur, etc. */
 }
+
+.slider-container {
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+  position: relative;
+}
