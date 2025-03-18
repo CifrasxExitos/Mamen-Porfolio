@@ -1,9 +1,3 @@
----
-layout: single
-permalink: /
----
-{% include profile.html %}
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
